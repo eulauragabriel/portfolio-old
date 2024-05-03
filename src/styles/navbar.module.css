@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Teachers:wght@600&display=swap');
+
+.logoStrip {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0; 
+}
+
+.navbar {
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 50px;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  transform: translateY(100); 
+  transition: transform 0.3s ease-in-out;
+}
+
+.navMenu {
+  display: flex;
+  justify-content: center;
+}
+
+.navBrandLink {
+  color: #000;
+  font-family: 'IM Fell DW Pica', serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  font-style: italic;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sideImage {
+  width: 10%; 
+  height: 10%;
+}
+
+.emptySpace {
+  width: 10%;
+}
+
+.hamburgerMenu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.hamburger {
+  width: 35px;
+  height: 3px;
+  background-color: #000;
+  margin: 5px 0;
+  transition: transform 0.5s ease-in-out;
+}
+
+.active .hamburger:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.active .hamburger:nth-child(2) {
+  opacity: 0;
+}
+
+.active .hamburger:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.navItem {
+  margin: 0 10px;
+}
+
+.navLink {
+  color: #000;
+  font-family: 'Teachers', sans-serif;
+  font-weight: 600;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  color: #597270;
+}
+
+@media (max-width: 768px) {
+  .sideImage{
+    width: 15%;
+    height: 15%;
+  }
+
+  .emptySpace {
+    width: 15%;
+  }  
+
+  .hamburgerMenu {
+    display: flex;
+  }
+
+  .navMenu {
+    display: none;
+  }
+
+  .navMenu.active {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f0f4f8;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(0); 
+  }
+
+  .navList {
+    flex-direction: column;
+  }
+
+  .navItem {
+    margin: 10px 0;
+  }
+}
+
+@media (min-width: 769px) {
+  .hamburgerMenu {
+    display: none;
+  }
+
+  .navMenu {
+    display: flex;
+  }
+}
+

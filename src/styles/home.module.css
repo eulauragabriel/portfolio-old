@@ -1,0 +1,20 @@
+.about {
+    color: #000;
+    font-family: 'Teachers', sans-serif;
+    font-weight: 600;
+    transition: color 0.3s;
+    text-decoration: none;
+  }
+  
+  .about p {
+    margin-bottom: 20px;
+  }
+  
+  .about a {
+    color: #597270;
+    text-decoration: none;
+  }
+  
+  .about a:hover {
+    text-decoration: underline;
+  }
