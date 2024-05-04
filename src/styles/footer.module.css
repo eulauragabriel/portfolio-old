@@ -1,6 +1,6 @@
   .footer {
     margin-top: auto;
-    background-color: #dafdc2;
+    background-color: #defacb;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -29,4 +29,12 @@
   
   .text {
     margin-top: 20px;
+  }
+
+  @media (max-width: 768px) {
+
+    .text, .link {
+      font-size: 14px;
+      text-align: center;
+    }
   }

@@ -1,20 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Teachers&display=swap');
 
 body {
   font-family: 'Teachers', sans-serif;
+  color: black;
+}
+
+html, body {
   margin: 0;
   padding: 0;
-  color: black;
-  background: white;
-}
-
-.navbar, .footer {
-  margin: 0;
-}
-
-p, h1, h2, h3, h4, h5, h6, a {
-  margin: 1em;
+  box-sizing: border-box;
+  height: 100%;
 }
