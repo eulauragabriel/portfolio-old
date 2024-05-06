@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from '@/styles/hobbies.module.css';
 
 const Hobbies = () => {
+    useEffect(() => {
+        document.title = 'Hobbies';
+    }, []);
+
     return (
         <div className={styles.Hobbies}>
             <h2>Bem-vindo à minha página de hobbies!</h2>

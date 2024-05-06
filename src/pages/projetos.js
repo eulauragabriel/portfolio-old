@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from '@/styles/projetos.module.css';
 
 const Projetos = () => {
+    useEffect(() => {
+        document.title = 'Projetos';
+    }, []);
+    
   return (
     <div className={styles.projetos}>
     <div className={styles.text}>

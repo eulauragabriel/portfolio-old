@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from '@/styles/home.module.css';
 
 const Home = () => {
+    useEffect(() => {
+        document.title = 'Home';
+    }, []);
+    
     return (
         <div className={styles.Home}>
             <h2 className={styles.text}>Seja bem-vindo!</h2>

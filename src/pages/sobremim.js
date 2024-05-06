@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from '@/styles/sobremim.module.css';
 
 const About = () => {
+    useEffect(() => {
+        document.title = 'Sobre Mim';
+    }, []);
+    
     return (
         <div className={styles.about}>
             <div className={styles.imageContainerI}>

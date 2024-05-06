@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useEffect }  from 'react';
 import styles from '@/styles/tecnologias.module.css'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3, faPython, faLinux, faGithub, faNode, faReact, faJs, faJava, faMdb, faDatabase } from '@fortawesome/free-brands-svg-icons';
 
 const Tecnologias = () => {
+
+    useEffect(() => {
+        document.title = 'Tecnologias';
+    }, []);
+    
     return (
         <div className={styles.Tecnologias}> 
             <div className={styles.text}>
