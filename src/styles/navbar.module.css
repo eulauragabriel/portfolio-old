@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Teachers:wght@600&display=swap');
 
 .logoStrip {
-  background-color: #fff;
+  background-color: #f0f4f8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +9,7 @@
 }
 
 .navbar {
-  background-color: #cadef3;
+  background-color: #c2d7ec;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,6 +93,7 @@
   color: #597270;
 }
 
+
 @media (max-width: 768px) {
   .sideImage{
     width: 15%;
@@ -120,7 +121,6 @@
     width: 100%;
     padding: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transform: translateY(0); 
   }
 
   .navList {
@@ -141,4 +141,3 @@
     display: flex;
   }
 }
-

@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className={styles.navbarBrand}>
           <Link href="/" passHref legacyBehavior>
             <div className={styles.navBrandLink}>
-              <img src="/images/august.png" alt="" className={styles.sideImage} /> 
+              <img src="/images/cupid.png" alt="" className={styles.sideImage} /> 
               <a>Laura's Portfolio</a> 
               <div className={styles.emptySpace}></div> 
             </div>
@@ -32,23 +32,23 @@ const Navbar = () => {
       <div className={`${styles.navMenu} ${isOpen ? styles.active : ''}`}>
         <ul className={styles.navList}>
           <li className={styles.navItem}>
-            <Link href="/" passHref legacyBehavior>
-              <a className={styles.navLink}>Index</a>
-            </Link>
-          </li>
-          <li className={styles.navItem}>
             <Link href="/home" passHref legacyBehavior>
               <a className={styles.navLink}>Home</a>
             </Link>
           </li>
           <li className={styles.navItem}>
             <Link href="/sobremim" passHref legacyBehavior>
-              <a className={styles.navLink}>Sobre</a>
+              <a className={styles.navLink}>Sobre mim</a>
             </Link>
           </li>
           <li className={styles.navItem}>
             <Link href="/hobbies" passHref legacyBehavior>
               <a className={styles.navLink}>Hobbies</a>
+            </Link>
+          </li>
+          <li className={styles.navItem}>
+            <Link href="/projetos" passHref legacyBehavior>
+              <a className={styles.navLink}>Projetos</a>
             </Link>
           </li>
           <li className={styles.navItem}>

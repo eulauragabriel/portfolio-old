@@ -1,0 +1,73 @@
+.Hobbies {
+    background-color: #f0f4f8; 
+    color: #000;
+    font-family: 'Teachers', sans-serif;
+    font-weight: 600;
+    transition: color 0.3s;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.text {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
+    grid-gap: 10px; 
+    margin: 0 8%;
+}
+
+.image-grid img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-grid iframe {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9; 
+}
+
+.styled-iframe {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.imageContainerII {
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .imageRight {
+    width: 55%;
+    height: 100%;
+  }
+
+@media screen and (max-width: 768px) {
+    .image-grid {
+        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr)); 
+        margin: 10px;
+    }
+
+    .imageContainerII{
+        width: 100%;
+        justify-content: center; 
+      }
+      
+      .imageRight {
+        width: 15%;
+        height: 15%;
+      }
+    
+}
