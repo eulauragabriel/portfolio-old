@@ -43,6 +43,14 @@ const Projetos = () => {
           <h4>Crud de Músicas: Um crud desenvolvido por mim para aula de Desenvolvimento Web II.</h4>
         </a>
       </div>
+      <div className={styles.images}>
+        <a href="https://github.com/Equipe-CodeLand/API-2024.1" target="_blank">
+          <img src="/images/projetoVII.png" alt="site api 2024.1" width="30%" />
+          <h4>API 2024.1: Um site desenvolvido pela minha equipe sobre um sistema de Gerenciamento de Ativos para a empresa YouTan no qual participei do time de desenvolvimento.</h4>
+        </a>
+        <a href=""></a>
+        <a href=""></a>
+        </div>
       <div>
         <h4>Para saber mais sobre meus projetos relacionados à programação clique <a href="https://github.com/eulauragabriel" target="_blank"><b>aqui</b></a> para abrir meus repositórios no GitHub!</h4>
       </div>
