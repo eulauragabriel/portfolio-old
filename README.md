@@ -18,10 +18,11 @@
 
 ### 🔧 Executando a aplicação:
 
-#### Para acessar o portfólio basta entrar no site:
+#### Para acessar o portfólio basta acessar o site:
 
 https://eulauragabrielportfolio.vercel.app/
 
+<!-- 
 #### Caso deseje executar na sua máquina, siga os passos a seguir:
 
 #### Primeiramente certifique-se de possuir o Node.js instalado em sua máquina, caso ainda não possua, acesse <a href="https://nodejs.org/en/download">aqui!</a> 
@@ -47,6 +48,7 @@ https://eulauragabrielportfolio.vercel.app/
    
  http://localhost:3001/
 ```
+-->
 
 ### 📎 Arquivos do repositório:
 <p> :file_folder: <strong>public</strong> - pasta que armazena as imagens desse projeto</p>
