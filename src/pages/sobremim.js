@@ -20,7 +20,7 @@ const About = () => {
                     Consigo me adaptar bem a novos ambientes e faço amizades com facilidade. Sempre estou bem
                     disposta a aprender mais.
                 </p>
-                <p>Gosto bastante de sair, viajar e estar com meu namorado, amigos e família.
+                <p>Gosto bastante de sair, viajar e estar com amigos e família.
                     Aos finais de semana não há nada melhor do que sair da rotina!</p>
                 <p>Tenho alguns hobbies aos quais sempre dedico algum tempo. Alguns exemplos são: desenhar, assistir
                     documentários e anime, jogar vôlei, ler, escutar música, aprender novas línguas, viajar e
