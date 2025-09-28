@@ -80,20 +80,7 @@ const Hobbies = () => {
                         <iframe class="styled-iframe" src="https://open.spotify.com/embed/album/5XpEKORZ4y6OrCZSKsi46A?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                         <iframe class="styled-iframe" src="https://open.spotify.com/embed/album/4yP0hdKOZPNshxUOjY0cZj?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                         <iframe class="styled-iframe" src="https://open.spotify.com/embed/album/7Ip9X7pnkhJ4cwDoBnvneD?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
                     </div>
-                </div>
-                <div>
-                    <h2>Estar com pessoas queridas</h2>
-                    <h4>Por fim, estar com meu namorado, amigos e família é algo que prezo bastante, sempre que posso estou com eles.</h4>
-                    <div className={styles['image-grid']}>
-                        <img src="/images/queridosII.jpg" alt="queridos" />
-                        <img src="/images/queridosI.jpg" alt="queridos" />
-                        <img src="/images/queridosIII.jpg" alt="queridos" />
-                    </div>
-                    <div className={styles.imageContainerII}>
-                <img src="/images/august.png" alt="" className={styles.imageRight} /> 
-                </div>
                 </div>
             </div>
         </div>
